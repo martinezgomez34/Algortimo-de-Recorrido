@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #000; 
+    color: #ccc; 
+    overflow-x: hidden; 
+}
+
+.charts-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    justify-content: space-around;
+    align-items: center;
+    gap: 1px;
+    padding: 20px;
+    width: 100%; 
+    overflow-x: auto;
+}
+
+.chart {
+    width: 450px;  
+    height: 320px; 
+    background-color: #202020;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    text-align: center;
+}
+
+.chart h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.chart canvas {
+    width: 100%; 
+    height: 100%;
+    background-color: black;
+    border: 1px solid #ccc; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-color: #ccc;
+    background-color: black;
+    color: #ccc;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}

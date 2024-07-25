@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenamiento de Datos</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="searchName" placeholder="Enter name to search">
+        <button id="searchMerge">Search Merge</button>
+        <button id="searchBubble">Search Bubble</button>
+        <button id="searchRadix">Search Radix</button>
+    </div>
+    <div>
+        <button id="startArray">Start Array</button>
+        <button id="startLinkedList">Start LinkedList</button>
+    </div>
+    
+    <div class="charts-container">
+        <div class="chart">
+            <h2>Merge Sort</h2>
+            <canvas id="mergeChart"></canvas>
+        </div>
+        <div class="chart">
+            <h2>Bubble Sort</h2>
+            <canvas id="bubbleChart"></canvas>
+        </div>
+        <div class="chart">
+            <h2>Radix Sort</h2>
+            <canvas id="radixChart"></canvas>
+        </div>
+    </div>
+    <div class="charts-container">
+        <div class="chart">
+            <h2>Search Merge Sort</h2>
+            <canvas id="searchMergeChart"></canvas>
+        </div>
+        <div class="chart">
+            <h2>Search Bubble Sort</h2>
+            <canvas id="searchBubbleChart"></canvas>
+        </div>
+        <div class="chart">
+            <h2>Search Radix Sort</h2>
+            <canvas id="searchRadixChart"></canvas>
+        </div>
+    </div>
+    <script type="module" src="./src/controller/index.js"></script>
+</body>
+</html>
